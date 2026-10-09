@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#FFFFFF",
+  "secondaryColor": "#F7F9FA",
+  "backgroundColor": "#FFFFFF",
+  "textColor": "#2C3E50",
+  "accentColor": "#1ABC9C",
+  "fontHeading": "Inter",
+  "fontBody": "Inter",
+  "borderRadius": "0.25rem",
+  "logoText": "TaskTracker Pro",
+  "logoImageUrl": null,
+  "tone": "professional"
+}

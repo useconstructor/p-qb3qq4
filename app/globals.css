@@ -1,25 +1,30 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
-  --color-background: oklch(1 0 0);
-  --color-foreground: oklch(0.145 0 0);
-  --color-card: oklch(1 0 0);
-  --color-card-foreground: oklch(0.145 0 0);
-  --color-primary: oklch(0.205 0 0);
-  --color-primary-foreground: oklch(0.985 0 0);
-  --color-secondary: oklch(0.97 0 0);
-  --color-secondary-foreground: oklch(0.205 0 0);
-  --color-muted: oklch(0.97 0 0);
-  --color-muted-foreground: oklch(0.556 0 0);
-  --color-accent: oklch(0.97 0 0);
-  --color-accent-foreground: oklch(0.205 0 0);
-  --color-destructive: oklch(0.577 0.245 27.325);
-  --color-border: oklch(0.922 0 0);
-  --color-input: oklch(0.922 0 0);
-  --color-ring: oklch(0.708 0 0);
-  --radius: 0.5rem;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, monospace;
+
+  --color-background: #FFFFFF;
+  --color-foreground: #2C3E50;
+  --color-surface: #F7F9FA;
+  --color-accent: #1ABC9C;
+  --color-accent-hover: #16A085;
+  --color-muted: #95A5A6;
+  --color-pending: #E67E22;
+  --color-completed: #BDC3C7;
+  --color-border: #E5E7EB;
+
+  --color-card: #FFFFFF;
+  --color-card-foreground: #2C3E50;
+  --color-primary: #1ABC9C;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: #F7F9FA;
+  --color-secondary-foreground: #2C3E50;
+  --color-muted-foreground: #95A5A6;
+  --color-destructive: #E74C3C;
+  --color-input: #F7F9FA;
+  --color-ring: #1ABC9C;
+  --radius: 0.25rem;
 }
 
 @layer base {
@@ -29,5 +34,6 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
   }
 }
