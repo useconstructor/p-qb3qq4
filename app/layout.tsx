@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "TaskTracker Pro",
+  title: "Tareas Pendientes",
   description: "Gestiona tus tareas sin complicaciones. Crea, organiza, y completa tus tareas con guardado automatico.",
 };
 

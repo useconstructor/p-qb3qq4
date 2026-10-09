@@ -276,7 +276,7 @@ export default function Home() {
 
   const faqs = [
     {
-      q: 'Necesito crear una cuenta para usar TaskTracker Pro?',
+      q: 'Necesito crear una cuenta para usar Tareas Pendientes?',
       a: 'No, puedes comenzar a crear y gestionar tareas inmediatamente sin necesidad de registrarte. Tus datos se guardan automaticamente en la nube.'
     },
     {
@@ -293,7 +293,7 @@ export default function Home() {
     },
     {
       q: 'La aplicacion funciona en dispositivos moviles?',
-      a: 'Si, TaskTracker Pro tiene un diseno responsive que se adapta perfectamente a escritorio, tablet y movil.'
+      a: 'Si, Tareas Pendientes tiene un diseno responsive que se adapta perfectamente a escritorio, tablet y movil.'
     }
   ]
 
@@ -307,7 +307,7 @@ export default function Home() {
               <div className="w-8 h-8 rounded bg-[var(--color-accent)] flex items-center justify-center">
                 <CheckCircle className="w-5 h-5 text-white" />
               </div>
-              <span className="font-bold text-xl text-[var(--color-foreground)]">TaskTracker Pro</span>
+              <span className="font-bold text-xl text-[var(--color-foreground)]">Tareas Pendientes</span>
             </div>
 
             {/* Desktop Nav */}
@@ -652,7 +652,7 @@ export default function Home() {
                 <div className="w-8 h-8 rounded bg-[var(--color-accent)] flex items-center justify-center">
                   <CheckCircle className="w-5 h-5 text-white" />
                 </div>
-                <span className="font-bold text-lg">TaskTracker Pro</span>
+                <span className="font-bold text-lg">Tareas Pendientes</span>
               </div>
               <p className="text-gray-400 text-sm">Gestiona tus tareas sin complicaciones. Simple, rapido y confiable.</p>
             </div>
@@ -680,7 +680,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
-            <p>&copy; {new Date().getFullYear()} TaskTracker Pro. Todos los derechos reservados.</p>
+            <p>&copy; {new Date().getFullYear()} Tareas Pendientes. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>
